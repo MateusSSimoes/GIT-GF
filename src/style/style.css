@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+body {
+  font-family: "Dancing Script", cursive;
+  color: rgb(0, 0, 0);
+  background-image: url(/src/imgs/layered-steps-haikei.svg);
+}
+
+h1 {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.text-love {
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.text-time {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.layout{
+  display: flex;
+  gap: 500px;
+  padding-top: 150px;
+}
+
+.box{
+  padding: 10px;
+  width: 99% !important;
+  padding-top: 50px;
+}
+
+.spotify{
+  padding-left: 100px;
+}
+
+.foto{
+  align-items: center;
+  justify-content: center;
+  padding-left: 250px;
+  padding-top: 20px;
+}
+
+.swiper {
+  width: 80%;
+  height: 1000px;
+}
+
+.swiper-slide img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px 245px 1000px ;
+}
+
+#cronometro {
+  font-size: 2.5em;
+  padding-left: 100px;
+}
+
+button{
+  margin-left: 950px;
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+}
+
+.fa-bounce {
+      animation: bounce 1.2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }
+
+    .icon {
+      font-size: 60px;
+      color: #FFD43B;
+    }
