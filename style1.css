@@ -2,7 +2,8 @@
 
 
 
-body {
+body {  
+  font-family: 'Dancing Script', cursive;
   font-family: cursive;
   color: rgb(255, 255, 255);
  background: linear-gradient(135deg, #f3eacb, #e6d8a7);
