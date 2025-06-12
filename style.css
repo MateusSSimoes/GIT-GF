@@ -5,7 +5,7 @@
 body {
   font-family: "Dancing Script", cursive;
   color: rgb(0, 0, 0);
-  background-image: url(/src/imgs/layered-steps-haikei.svg);
+  background-image: url(layered-steps-haikei.svg);
 }
 
 h1 {
